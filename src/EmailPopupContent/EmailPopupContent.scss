@@ -1,5 +1,5 @@
 .email-container {
-  margin: 30px;
+  margin: 40px;
   text-align: center;
 
   span {
@@ -9,18 +9,25 @@
   input {
     width: 300px;
     font-size: 15px;
-    margin-top: 20px;
   }
 
   .submit {
-    margin-top: 50px;
+    margin-top: 20px;
 
     button {
-      width: 200px;
+      width: 330px;
       height: 40px;
-      font-size: 10px;
+      font-size: 20px;
       color: white;
       background: black;
     }
   }
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: black !important;
+}
+
+.MuiInputLabel-formControl.Mui-focused {
+  color: black !important;
 }
