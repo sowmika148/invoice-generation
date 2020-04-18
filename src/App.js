@@ -21,7 +21,6 @@ const App = () => {
   const closeConfirmationPopup = () => setShowPopup(false);
 
   const submit = (emailAddress) => {
-    console.log(emailAddress, 'emailAddress');
     let response = axios.get(`http://localhost:8080/grocerymart/${emailAddress}/invoice`)
       .then(res => {
         response = res.data;
@@ -31,7 +30,6 @@ const App = () => {
         setCompany(response.company);
         setCartItems(response.orderLineItems);
         setTotalPrice(response.totalPrice);
-        console.log(response);
         setShowPopup(false);
       }).catch(function (error) {
         if (error.response) {
