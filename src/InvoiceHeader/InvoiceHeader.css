@@ -10,7 +10,11 @@
 }
 
 .company-name {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 800;
     font-family: "Roboto", sans-serif;
+}
+
+.company-name h1 {
+    color: black;
 }

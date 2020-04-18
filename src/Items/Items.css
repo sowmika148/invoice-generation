@@ -32,7 +32,8 @@
     border: solid;
     border-width: 1px 0;
     height: 40px;
-    border-color: #eee;
+    color: black;
+    border-color: #eeeeee8a;
 }
 
 .items-container td {
