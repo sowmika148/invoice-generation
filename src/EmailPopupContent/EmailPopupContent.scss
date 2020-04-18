@@ -1,0 +1,26 @@
+.email-container {
+  margin: 30px;
+  text-align: center;
+
+  span {
+    font-size: 15px;
+  }
+
+  input {
+    width: 300px;
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .submit {
+    margin-top: 50px;
+
+    button {
+      width: 200px;
+      height: 40px;
+      font-size: 10px;
+      color: white;
+      background: black;
+    }
+  }
+}

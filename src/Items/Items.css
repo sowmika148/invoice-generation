@@ -1,0 +1,46 @@
+.items-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/*.items-container-header {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    background: #eee;*/
+/*    padding: 5px;*/
+/*    font-weight: bold;*/
+/*}*/
+
+.items-container table {
+    width: 100%;
+}
+
+.items-container table tr:first-child {
+    background: #eee;
+    font-weight: bold;
+}
+
+.items-container td:not(:first-child) {
+    text-align: right;
+}
+
+.items-container table {
+    border-collapse: collapse;
+}
+
+.items-container tr {
+    border: solid;
+    border-width: 1px 0;
+    height: 40px;
+    border-color: #eee;
+}
+
+.items-container td {
+    padding: 5px;
+}
+
+.total-amount-container {
+    text-align: right;
+    font-weight: bold;
+    padding: 10px 0;
+}

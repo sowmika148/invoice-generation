@@ -1,0 +1,9 @@
+.profile-details-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.user-details-container {
+    text-align: right;
+}
