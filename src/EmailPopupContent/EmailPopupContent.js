@@ -9,8 +9,9 @@ const EmailPopupContent = (props) => {
 
   return (
     <div className="email-container">
-      <TextField id="outlined-basic" label="Email" variant="outlined" />
-      {/*<input type="text" onChange={(e) => setEmailAddress(e.target.value)}/>*/}
+      <TextField id="outlined-basic" label="Email" variant="outlined"
+                 onChange={(e) => setEmailAddress(e.target.value)} />
+      {/*<input type="text" }/>*/}
       <div className="submit">
         <button onClick={() => props.submit(emailAddress)}>Next</button>
       </div>
