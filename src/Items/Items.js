@@ -19,8 +19,8 @@ const Items = (props) => {
             <tr key={index}>
               <td>{item.name}</td>
               <td>{item.quantity}</td>
-              <td>Rs.{item.price}</td>
-              <td>Rs.{(item.quantity * item.price).toFixed(2)}</td>
+              <td>Rs.{item.unitPrice}</td>
+              <td>Rs.{(item.price).toFixed(2)}</td>
             </tr>
           );
         })}

@@ -25,7 +25,7 @@ const App = () => {
       .then(res => {
         response = res.data;
         setInvoiceId(response.id);
-        setInvoiceDate(response.date);
+        setInvoiceDate(response.orderDate);
         setUser(response.user);
         setCompany(response.company);
         setCartItems(response.orderLineItems);
@@ -38,7 +38,7 @@ const App = () => {
           console.log(error.response.headers);
         }
       });
-  }
+  };
 
   return (
     <div>
